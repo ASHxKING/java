@@ -36,10 +36,14 @@ public class Practice_set_7 {
             decremental_pattern(n-1);
         }
     }
+
+//    Write a function to print the nth term of the Fibonacci series using recursion.
+
+
     public static void main(String[] args) {
 //        multiplication(9,10);
 //        incremental_pattern(4);
 //        System.out.println(sum(4);
-        decremental_pattern(4);
+//        decremental_pattern(4);
     }
 }
