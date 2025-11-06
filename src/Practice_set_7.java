@@ -38,12 +38,26 @@ public class Practice_set_7 {
     }
 
 //    Write a function to print the nth term of the Fibonacci series using recursion.
+    static int fibonachi (int n){
+        if (n==0) return 0;
+        if (n==1) return 1;
+        return fibonachi(n-1) + fibonachi(n-2);
+    }
 
+//    Write a function to find the average of a set of numbers passed as arguments.
+    static double average(float ...arr){
+        double avg=0;
+        for (double x: arr){
+            avg+=x;
+        }
+        return avg/arr.length;
+    }
 
     public static void main(String[] args) {
 //        multiplication(9,10);
 //        incremental_pattern(4);
 //        System.out.println(sum(4);
 //        decremental_pattern(4);
+        System.out.println(average(1,2,3,4, 576,3,23,2345,5));
     }
 }
