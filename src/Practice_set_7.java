@@ -58,6 +58,6 @@ public class Practice_set_7 {
 //        incremental_pattern(4);
 //        System.out.println(sum(4);
 //        decremental_pattern(4);
-        System.out.println(average(1,2,3,4, 576,3,23,2345,5));
+        System.out.println(average(1,2,3,4, 576,3,23,235,5));
     }
 }
